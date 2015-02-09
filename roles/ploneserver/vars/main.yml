@@ -1,0 +1,56 @@
+---
+homebrew_packages:
+  - coreutils
+  - git
+  - zsh
+  - rbenv
+  - ruby
+  - wget
+  - htop
+  - ghi
+  - brew-cask
+  - lynx
+  - node
+  - git-flow
+  - ghi
+  - legit
+  - vim
+  - smartmontools
+  - youtube-dl
+
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/versions
+  - caskroom/versions
+  # - homebrew/binary
+  # - homebrew/dupes
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - alfred
+  - atom
+  - controlplane
+  - dash
+  - dropbox
+  - evernote
+  - firefox
+  - gitx
+  - google-chrome
+  - iterm2
+  - java7
+  - littleipsum
+  - microsoft-lync-plugin
+  - microsoft-office
+  - mumble
+  - remote-desktop-connection
+  - xquartz
+  - shiftit
+  - skitch
+  - skype
+  - slack
+  - sublime-text3
+  - teamviewer
+  - telephone
+  - virtualbox
+  - vlc
+  - vmware-fusion6

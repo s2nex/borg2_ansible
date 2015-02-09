@@ -1,0 +1,30 @@
+---
+- hosts: hetznermachines
+
+  # vars:
+  #   this_is_a_key: foo
+
+  # vars_files:
+  #   - vars/main.yml
+
+  # pre_tasks:
+  #  - name: "Install pip"
+  #    easy_install: name=pip
+  #    sudo: yes
+
+  # - name: install apps from pip
+  #   pip: name={{item}}
+  #   sudo: yes
+  #   with_items:
+  #       - virtualenv
+
+  roles:
+    - ploneserver
+  #  - homebrew
+  #  - config
+
+  # requires node/npm from above
+  # - name: install global apps from npm
+  #   npm: name={{item}} global=yes
+  #   with_items:
+  #       - grunt-cli
